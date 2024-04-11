@@ -38,3 +38,10 @@ An opinionated template repo configured with the following:
 
 - Run `yarn` at the root to install all the dependencies and register the new package name before pushing the initial commit
 - Ensure that any commits follow [Conventional Commits](https://www.conventionalcommits.org/) conventions in order for the version bump and release notes to work appropriately.
+
+## Yarn Scripts
+
+- `yarn build`
+- `yarn lint`
+- `yarn test`
+- `yarn smoke` - runs build, lint, and test

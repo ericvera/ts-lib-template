@@ -15,7 +15,8 @@
   "scripts": {
     "build": "tsc --build",
     "lint": "eslint .",
-    "test": "echo 'Tests not implemented yet.'"
+    "test": "echo 'Tests not implemented yet.'",
+    "smoke": "yarn build && yarn lint && yarn test"
   },
   "packageManager": "yarn@4.1.1",
   "devDependencies": {
