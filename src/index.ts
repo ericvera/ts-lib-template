@@ -1,1 +1,1 @@
-export const ok = 'implement me'
+export var ok = 'implement me'
