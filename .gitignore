@@ -63,6 +63,9 @@ node_modules/
 # TypeScript cache
 *.tsbuildinfo
 
+# TypeScript output
+dist
+
 # Optional npm cache directory
 .npm
 
@@ -131,3 +134,5 @@ node_modules/
 !.yarn/cache
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,node,yarn,visualstudiocode
+
+dist
