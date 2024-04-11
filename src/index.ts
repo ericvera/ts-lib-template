@@ -1,1 +1,1 @@
-export const ok = 'implement me'
+export const add = (a: number, b: number) => a + b

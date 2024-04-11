@@ -15,7 +15,7 @@
   "scripts": {
     "build": "tsc --build",
     "lint": "eslint .",
-    "test": "echo 'Tests not implemented yet.'",
+    "test": "vitest run",
     "smoke": "yarn build && yarn lint && yarn test",
     "-- PRE-COMMIT HOOKS --": "",
     "postinstall": "husky install",
@@ -33,7 +33,8 @@
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
     "typescript": "^5.4.5",
-    "typescript-eslint": "^7.6.0"
+    "typescript-eslint": "^7.6.0",
+    "vitest": "^1.5.0"
   },
   "prettier": {
     "tabWidth": 2,

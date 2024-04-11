@@ -5,6 +5,7 @@ An opinionated template repo configured with the following:
 - Typescript
 - ESM only
 - Node >= 20
+- Test using Vitest
 - Prettier (see `package.json` for config)
 - Typescript ESLint (strict & typed mode)
 - Github Actions deployment to npm on push to `main` branch
