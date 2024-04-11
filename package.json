@@ -45,8 +45,7 @@
   },
   "keywords": [],
   "lint-staged": {
-    "*.vue": "stylelint",
-    "*.{ts,tsx,cjs,mjs,js,vue}": "eslint --cache",
+    "*.{ts,tsx,mjs}": "eslint --cache",
     "*": "prettier --ignore-unknown --write"
   }
 }
