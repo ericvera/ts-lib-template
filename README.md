@@ -34,5 +34,5 @@ An opinionated template repo configured with the following:
 
 ## Things to know
 
-- Run `yarn` at the root to install all the dependencies
+- Run `yarn` at the root to install all the dependencies and register the new package name before pushing the initial commit
 - Ensure that any commits follow [Conventional Commits](https://www.conventionalcommits.org/) conventions in order for the version bump and release note to work appropriately
