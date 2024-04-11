@@ -16,7 +16,11 @@
     "build": "tsc --build",
     "lint": "eslint .",
     "test": "echo 'Tests not implemented yet.'",
-    "smoke": "yarn build && yarn lint && yarn test"
+    "smoke": "yarn build && yarn lint && yarn test",
+    "-- PRE-COMMIT HOOKS --": "",
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable"
   },
   "packageManager": "yarn@4.1.1",
   "devDependencies": {
