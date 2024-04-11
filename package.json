@@ -1,0 +1,47 @@
+{
+  "name": "i-forgot-to-rename-my-package",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "lint": "eslint .",
+    "test": "echo 'Tests not implemented yet.'"
+  },
+  "packageManager": "yarn@4.1.1",
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/node": "^20.12.7",
+    "eslint": "^9.0.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.6.0"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/i-forgot-to-rename-my-package"
+  },
+  "keywords": [],
+  "lint-staged": {
+    "*.vue": "stylelint",
+    "*.{ts,tsx,cjs,mjs,js,vue}": "eslint --cache",
+    "*": "prettier --ignore-unknown --write"
+  }
+}
