@@ -6,7 +6,9 @@
     ".": "./dist/index.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "!/**/__test__",
+    "!*.test.*"
   ],
   "sideEffects": false,
   "engines": {
