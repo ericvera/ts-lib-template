@@ -1,4 +1,6 @@
-# Typescript library repo template
+# TypeScript library repo template
+
+**Template repo for building a modern TypeScript library optimized for minimal setup and maintenance effort**
 
 An opinionated template repo configured with the following:
 
@@ -9,6 +11,8 @@ An opinionated template repo configured with the following:
 - Prettier (see `package.json` for config)
 - Typescript ESLint (strict & typed mode)
 - Github Actions deployment to npm on push to `main` branch
+- Github dependabot configured for weekly updates
+- Auto-approve dependabot changes after lint, built, and tests pass
 - Auto package version bump on push to `main` branch (based on [Conventional Commits](https://www.conventionalcommits.org/) conventions)
 - Github Release generation on deployment (based on [Conventional Commits](https://www.conventionalcommits.org/) conventions)
 - Yarn with `nodeLinker: node-modules`
@@ -34,6 +38,13 @@ An opinionated template repo configured with the following:
 
 1. [Get a token](https://docs.npmjs.com/creating-and-viewing-access-tokens#creating-granular-access-tokens-on-the-website) from npmjs.com
 2. [Add a secret with the npm token to be used by Github Actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions). The secret must be named `NPM_TOKEN`.
+
+### Enable auto-merge for dependabot pull-requests
+
+There are actually two options:
+
+1. [Enable auto-merge for the repo](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-auto-merge-for-pull-requests-in-your-repository) (only avaylable for public repos or paid accounts as of this writing)
+1. Disable the auto-merge option by removing it from `.github/workflows/dependabot.yml`
 
 ## Things to know
 
