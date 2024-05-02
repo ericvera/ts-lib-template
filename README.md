@@ -57,3 +57,7 @@ There are actually two options:
 - `yarn lint`
 - `yarn test`
 - `yarn smoke` - runs build, lint, and test
+
+# API Reference
+
+See [docs](docs/README.md)
