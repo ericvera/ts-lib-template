@@ -52,6 +52,7 @@
     "url": "https://github.com/user/i-forgot-to-rename-my-package"
   },
   "keywords": [],
+  "license": "MIT",
   "lint-staged": {
     "*.{ts,tsx,mjs}": "eslint --cache",
     "*": "prettier --ignore-unknown --write"
