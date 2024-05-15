@@ -21,7 +21,7 @@
     "smoke": "yarn build && yarn lint && yarn test",
     "docs": "typedoc && prettier --ignore-unknown --write docs/",
     "-- PRE-COMMIT HOOKS --": "",
-    "postinstall": "husky install",
+    "postinstall": "husky || true",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
     "prepare": "husky"
