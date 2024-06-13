@@ -1,4 +1,4 @@
-i-forgot-to-rename-my-package • Docs
+**i-forgot-to-rename-my-package** • **Docs**
 
 ---
 
