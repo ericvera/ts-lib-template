@@ -11,7 +11,7 @@
 ## Parameters
 
 | Parameter | Type     |
-| :-------- | :------- |
+| --------- | -------- |
 | `a`       | `number` |
 | `b`       | `number` |
 
@@ -19,6 +19,6 @@
 
 `number`
 
-## Source
+## Defined in
 
 [index.ts:1](https://github.com/ericvera/ts-lib-template/blob/main/src/index.ts#L1)
