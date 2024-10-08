@@ -25,22 +25,22 @@
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
-  "packageManager": "yarn@4.3.0",
+  "packageManager": "yarn@4.5.0",
   "devDependencies": {
-    "@eslint/js": "^9.9.0",
+    "@eslint/js": "^9.12.0",
     "@tsconfig/strictest": "^2.0.5",
-    "@types/node": "^22.4.2",
-    "eslint": "^9.9.0",
-    "husky": "^9.1.5",
+    "@types/node": "^22.7.5",
+    "eslint": "^9.12.0",
+    "husky": "^9.1.6",
     "is-ci": "^3.0.1",
-    "lint-staged": "^15.2.9",
+    "lint-staged": "^15.2.10",
     "pinst": "^3.0.0",
     "prettier": "^3.3.3",
-    "typedoc": "^0.26.6",
-    "typedoc-plugin-markdown": "^4.2.5",
-    "typescript": "^5.5.4",
-    "typescript-eslint": "^8.2.0",
-    "vitest": "^2.0.5"
+    "typedoc": "^0.26.8",
+    "typedoc-plugin-markdown": "^4.2.9",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.8.1",
+    "vitest": "^2.1.2"
   },
   "prettier": {
     "tabWidth": 2,
