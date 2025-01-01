@@ -1,4 +1,4 @@
-[**i-forgot-to-rename-my-package**](../README.md) • **Docs**
+[**i-forgot-to-rename-my-package**](../README.md)
 
 ---
 
@@ -7,6 +7,8 @@
 # Function: add()
 
 > **add**(`a`, `b`): `number`
+
+Defined in: [index.ts:1](https://github.com/ericvera/ts-lib-template/blob/main/src/index.ts#L1)
 
 ## Parameters
 
@@ -18,7 +20,3 @@
 ## Returns
 
 `number`
-
-## Defined in
-
-[index.ts:1](https://github.com/ericvera/ts-lib-template/blob/main/src/index.ts#L1)
