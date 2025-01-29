@@ -11,6 +11,5 @@
     "source.organizeImports": "explicit"
   },
   "todo-tree.tree.showBadges": true,
-  // Enable ESlint flat config support
-  "eslint.experimental.useFlatConfig": true
+  "eslint.useFlatConfig": true
 }
