@@ -26,17 +26,17 @@
   },
   "packageManager": "yarn@4.6.0",
   "devDependencies": {
-    "@eslint/js": "^9.19.0",
+    "@eslint/js": "^9.20.0",
     "@tsconfig/strictest": "^2.0.5",
-    "@types/node": "^22.12.0",
-    "eslint": "^9.19.0",
+    "@types/node": "^22.13.1",
+    "eslint": "^9.20.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
     "pinst": "^3.0.0",
-    "prettier": "^3.4.2",
+    "prettier": "^3.5.0",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.22.0",
-    "vitest": "^3.0.4"
+    "typescript-eslint": "^8.23.0",
+    "vitest": "^3.0.5"
   },
   "prettier": {
     "tabWidth": 2,
